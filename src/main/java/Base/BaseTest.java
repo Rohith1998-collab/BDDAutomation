@@ -38,7 +38,6 @@ public WebDriver driverInitialization(String browser)
 	localDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 	driver.set(localDriver);
 	return localDriver;
-	System.out.println("hello");
 	
 
 	
